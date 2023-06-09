@@ -36,14 +36,15 @@ let zhPopChart1 = new Chart(myChart1, {
         }]
     },
     options:{
+        responsive: true,
         plugins: {
             title:{
                 display:true,
                 text:'Largests Cities in South Holland',
                 font: {
-                    size: 24,
+                    size: 16,
                     weight:600,
-                }
+                },
             },
             legend:{ // you want this for doughnut / pie charts, set display to true
                 display: true,
@@ -84,18 +85,15 @@ let zhPopChart2 = new Chart(myChart2, {
         }]
     },
     options:{
+        responsive: true,
         plugins: {
             title:{
                 display:true,
                 text:'Largests Cities in The Netherlands',
                 font: {
-                    size: 24,
+                    size: 16,
                     weight:600,
                 },
-                padding: {
-                    top: 10,
-                    bottom: 60,
-                  }
             },
             legend:{ // you want this for doughnut / pie charts, set display to true
                 display: false,

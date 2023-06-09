@@ -1,10 +1,12 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    font-size: 12px;
 }
 
 .container {
-    max-width: 100%;
+    max-width: 900px;
+    width: 100%;
 }
 
 body {
@@ -19,4 +21,15 @@ h1 {
     font-size: 36px;
     font-weight: bold;
     padding: 30px;
+}
+
+.chart1 {
+    max-width: 35vw;
+    max-height: 35vw;
+
+}
+
+.chart2 {
+    max-width: 40vw;
+    max-height: 50vw;
 }
