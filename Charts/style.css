@@ -5,31 +5,60 @@
 }
 
 .container {
-    max-width: 900px;
-    width: 100%;
+    width: 100%;   
 }
 
 body {
-    background-color: cornflowerblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: white;
+}
+
+.boxblue {
+    background-color: navy;
+    width: 100%;
+    padding: 40px;
+}
+
+.boxlight {
+    background-color:floralwhite;
+    width: 100%;
+    padding: 40px;
+}
+
+.boxslate {
+    background-color:darkslategray; 
+    width: 100%;
+    height: auto;
 }
 
 h1 {
-    color: white;
+    color: cornflowerblue;
     font-size: 36px;
     font-weight: bold;
     padding: 30px;
 }
 
-.chart1 {
-    max-width: 35vw;
-    max-height: 35vw;
-
+.main-text {
+    padding: 20px;
+    font-size: 10pt;
+    margin: 0 25px 0 25px;
 }
 
-.chart2 {
-    max-width: 40vw;
-    max-height: 50vw;
+.dark {
+   color:darkslategrey;
+}
+
+.subtext {
+    color: cornflowerblue;
+}
+
+.chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.fullchart {
+    padding: 30px;
+    max-width: 800px;
 }
